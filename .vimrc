@@ -31,6 +31,7 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'slashmili/alchemist.vim'
+Plugin 'git://github.com/jeffkreeftmeijer/vim-numbertoggle.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
