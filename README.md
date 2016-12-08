@@ -28,7 +28,7 @@ vim +PluginInstall +qall
 * [vim-colorschemes](https://github.com/flazz/vim-colorschemes)
 * [vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax)
 * [vim-elixir](https://github.com/elixir-lang/vim-elixir)
-* [vim-go](https://github.com/digitaltoad/vim-pu://github.com/fatih/vim-go)
+* [vim-go](https://github.com/fatih/vim-go)
 * [vim-javascript](https://github.com/pangloss/vim-javascript)
 * [vim-jsx](https://github.com/mxw/vim-jsx)
 * [vim-markdown](https://github.com/plasticboy/vim-markdown)
