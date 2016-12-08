@@ -40,5 +40,5 @@ inoremap <C-t>     <Esc>:tabnew<CR>
 inoremap <C-S-tab> <Esc>:tabprevious<CR>i
 inoremap <C-tab>   <Esc>:tabnext<CR>i
 
-" Stop Elixir from high-jacking tab navigation
+" Stop Elixir from hijacking tab navigation
 let g:alchemist_tag_stack_map = '<C-m>'
