@@ -32,6 +32,12 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>""
 " Easy access to the shell
 map <Leader><Leader> :!
 
+" Stop Elixir from hijacking tab navigation
+let g:alchemist_tag_stack_map = '<C-m>'
+
+" Stop Go from hijacking tab navigation
+let g:go_def_mapping_enabled = 0
+
 " tab navigation like firefox
 nnoremap <C-S-tab> :tabprevious<CR>
 nnoremap <C-tab>   :tabnext<CR>
@@ -39,6 +45,3 @@ nnoremap <C-t>     :tabnew<CR>
 inoremap <C-t>     <Esc>:tabnew<CR>
 inoremap <C-S-tab> <Esc>:tabprevious<CR>i
 inoremap <C-tab>   <Esc>:tabnext<CR>i
-
-" Stop Elixir from hijacking tab navigation
-let g:alchemist_tag_stack_map = '<C-m>'
