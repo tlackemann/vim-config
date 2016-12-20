@@ -2,9 +2,10 @@
 " -----------
 
 set t_Co=256
+" colo seoul256
+colo gruvbox
+hi Normal ctermbg=none
 set background=dark
-colorscheme zenburn
-hi Normal ctermbg=NONE
 
 " Highlight the maxlength
 set colorcolumn=100
