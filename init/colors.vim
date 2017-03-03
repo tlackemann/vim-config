@@ -2,10 +2,12 @@
 " -----------
 
 set t_Co=256
-" colo seoul256
-colo gruvbox
+colorscheme spring-night
 hi Normal ctermbg=none
-set background=dark
+" set background=dark
 
 " Highlight the maxlength
 set colorcolumn=100
+
+" Airline theme!
+let g:airline_theme = 'spring_night'

@@ -23,6 +23,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'garbas/vim-snipmate'
 Plugin 'git://github.com/flowtype/vim-flow.git'
 Plugin 'git://github.com/jeffkreeftmeijer/vim-numbertoggle.git'
+Plugin 'git://github.com/rhysd/vim-color-spring-night.git'
 Plugin 'git://github.com/tikhomirov/vim-glsl.git'
 Plugin 'godlygeek/tabular'
 Plugin 'hail2u/vim-css3-syntax'
@@ -35,6 +36,7 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'slashmili/alchemist.vim'
 Plugin 'tomtom/tlib_vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'vim-airline/vim-airline'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

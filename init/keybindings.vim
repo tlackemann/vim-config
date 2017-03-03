@@ -48,3 +48,8 @@ inoremap <C-tab>   <Esc>:tabnext<CR>i
 
 " Toggle Paste with F3
 set pastetoggle=<F3>
+
+" Copy/paste with gVim
+nmap <C-V> "+gP
+imap <C-V> <ESC><C-V>i
+vmap <C-C> "+y
