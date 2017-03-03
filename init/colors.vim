@@ -3,7 +3,7 @@
 
 set t_Co=256
 colorscheme spring-night
-hi Normal ctermbg=none
+" hi Normal ctermbg=none
 " set background=dark
 
 " Highlight the maxlength
