@@ -2,12 +2,11 @@
 " -----------
 
 set t_Co=256
-colorscheme spring-night
+colorscheme hybrid
 " hi Normal ctermbg=none
-" set background=dark
+set background=dark
 
 " Highlight the maxlength
 set colorcolumn=100
 
-" Airline theme!
-let g:airline_theme = 'spring_night'
+let g:airline_theme = 'airlineish'

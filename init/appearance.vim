@@ -6,6 +6,7 @@ set guioptions-=rL              " Remove scrollbars
 set visualbell                  " Suppress audio/visual error bell
 set notimeout                   " No command timeout
 set showcmd                     " Show typed command prefixes while waiting for operator
+set guifont=Hack\ 8             " Set default font
 
 set expandtab                   " Use soft tabs
 set tabstop=2                   " Tab settings
@@ -64,3 +65,6 @@ set cursorcolumn
 set cursorline
 hi CursorLine cterm=NONE ctermbg=238
 hi CursorColumn cterm=NONE ctermbg=238
+
+" automatically wrap lines >100 characters (use "gq" to autoformat)
+set tw=100
