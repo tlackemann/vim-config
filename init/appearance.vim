@@ -6,7 +6,7 @@ set guioptions-=rL              " Remove scrollbars
 set visualbell                  " Suppress audio/visual error bell
 set notimeout                   " No command timeout
 set showcmd                     " Show typed command prefixes while waiting for operator
-set guifont=Hack\ 8             " Set default font
+set guifont=FiraCode\ Regular\ 9 " Set default font
 
 set expandtab                   " Use soft tabs
 set tabstop=2                   " Tab settings

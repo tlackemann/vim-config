@@ -20,8 +20,8 @@ Plugin 'ctrlp.vim'
 Plugin 'digitaltoad/vim-pug'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'fatih/vim-go'
-Plugin 'flazz/vim-colorschemes'
 Plugin 'garbas/vim-snipmate'
+Plugin 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
 Plugin 'git://github.com/airblade/vim-gitgutter.git'
 Plugin 'git://github.com/danilo-augusto/vim-afterglow.git'
 Plugin 'git://github.com/flowtype/vim-flow.git'
@@ -44,7 +44,6 @@ Plugin 'slashmili/alchemist.vim'
 Plugin 'tomtom/tlib_vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
-Plugin 'git://github.com/alampros/vim-styled-jsx.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
