@@ -1,13 +1,14 @@
 " Colors
 " -----------
 
-set t_Co=256
-set background=dark
+" Set neovim colors
+if has('nvim') || has('termguicolors')
+  set termguicolors
+endif
 
-colorscheme challenger_deep
-let g:challenger_deep_termcolors = 16
+colorscheme onedark
 
 " Highlight the maxlength
 set colorcolumn=100
 
-let g:airline_theme = 'challenger_deep'
+let g:airline_theme = 'onedark'

@@ -1,5 +1,5 @@
 " Pad comment delimeters with spaces
-let NERDSpaceDelims = 1
+let NERDSpaceDelims=1
 set guioptions-=T               " Remove GUI toolbar
 set guioptions-=e               " Use text tab bar, not GUI
 set guioptions-=rL              " Remove scrollbars
@@ -13,8 +13,8 @@ set tabstop=2                   " Tab settings
 set autoindent
 set smarttab                    " Use shiftwidth to tab at line beginning
 set shiftwidth=2                " Width of autoindent
-set number                      " Line numbers
 set nowrap                      " No wrapping
+set number relativenumber       " Line numbers
 set backspace=indent,eol,start " Let backspace work over anything.
 set wildignore+=tags               " Ignore tags when globbing.
 set wildignore+=tmp/**             " ...Also tmp files.
@@ -22,7 +22,7 @@ set wildignore+=public/uploads/**  " ...Also uploads.
 set wildignore+=public/images/**   " ...Also images.
 set wildignore+=vendor/**          " ...Also vendor.
 
-" set list                        " Show whitespace (Tabs appear as ^I)
+set list                        " Show whitespace (Tabs appear as ^I)
 set listchars=trail:~
 
 set showmatch                   " Show matching brackets
