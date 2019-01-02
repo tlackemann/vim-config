@@ -12,7 +12,7 @@ git clone https://github.com/tlackemann/vim-config.git ~/.vim
 ln -s ~/.vim/init.vim ~/.config/nvim/init.vim
 
 # Install plugins
-vim +PlugInstall
+nvim +PlugInstall
 ```
 
 ## Configuration
@@ -21,9 +21,11 @@ All configuration is defined in the `init/` folder. Each plugin receives its own
 
 ## Supported Languages
 
+ - CSS/3
  - GLSL
- - JavaScript
  - Haxe
+ - HTML/5
+ - JavaScript
  - Markdown
  - Rust
  - TypeScript

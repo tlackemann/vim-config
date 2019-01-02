@@ -45,7 +45,7 @@ Plug 'Shougo/neosnippet-snippets'
 " Tabs
 " TypeScript
 Plug 'leafgarland/typescript-vim'
-Plug 'Quramy/tsuquyomi'
+Plug 'mhartington/nvim-typescript', { 'do': './install.sh' }
 
 " Initialize plugin system
 call plug#end()
