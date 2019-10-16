@@ -10,9 +10,12 @@ let &packpath = &runtimepath
 " Make sure you use single quotes
 "
 " Autocomplete
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Colorschemes
 Plug 'joshdick/onedark.vim'
+Plug 'mhartington/oceanic-next'
+" Elixir
+Plug 'elixir-editors/vim-elixir'
 " File Control / Formatting
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'godlygeek/tabular'
@@ -26,13 +29,17 @@ Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 " Haxe
 Plug 'jdonaldson/vaxe'
+" HTML
+Plug 'othree/html5.vim'
 " JavaScript
 Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 Plug 'Quramy/vim-js-pretty-template'
+Plug 'bpietravalle/vim-bolt'
 " Markdown
 Plug 'gabrielelana/vim-markdown'
+Plug 'jszakmeister/markdown2ctags'
 " Rust
 Plug 'racer-rust/vim-racer'
 Plug 'rust-lang/rust.vim'
@@ -44,7 +51,8 @@ Plug 'Shougo/neosnippet.vim'
 Plug 'Shougo/neosnippet-snippets'
 " Tabs
 " TypeScript
-Plug 'leafgarland/typescript-vim'
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'othree/yajs.vim'
 Plug 'mhartington/nvim-typescript', { 'do': './install.sh' }
 
 " Initialize plugin system

@@ -1,3 +1,5 @@
+let g:tagbar_left = 1
+
 let g:tagbar_type_typescript = {                                                  
   \ 'ctagsbin' : 'tstags',                                                        
   \ 'ctagsargs' : '-f-',                                                           
@@ -17,4 +19,18 @@ let g:tagbar_type_typescript = {
   \ 'sort' : 0                                                                    
 \ }
 
+let g:tagbar_type_markdown = {
+  \ 'ctagstype': 'markdown',
+  \ 'ctagsbin' : '~/.vim/bundle/markdown2ctags/markdown2ctags.py',
+  \ 'ctagsargs' : '-f - --sort=yes --sro=»',
+  \ 'kinds' : [
+      \ 's:sections',
+      \ 'i:images'
+  \ ],
+  \ 'sro' : '»',
+  \ 'kind2scope' : {
+      \ 's' : 'section',
+  \ },
+  \ 'sort': 0,
+\ }
 nmap <F8> :TagbarToggle<CR>

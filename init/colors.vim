@@ -6,9 +6,12 @@ if has('nvim') || has('termguicolors')
   set termguicolors
 endif
 
-colorscheme onedark
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+" set background=dark
+syntax enable
+colorscheme OceanicNext
 
 " Highlight the maxlength
 set colorcolumn=100
 
-let g:airline_theme = 'onedark'
+let g:airline_theme = 'oceanicnext'
