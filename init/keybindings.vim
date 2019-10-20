@@ -61,3 +61,6 @@ nnoremap gf :vertical wincmd f<CR>
 " Insert a timestamp
 nmap <F3> i<C-R>=strftime("%FT%T%z")<CR><Esc>
 imap <F3> <C-R>=strftime("%FT%T%z")<CR>
+
+" Use FZF like a big ol' project search (ctrl+f)
+nmap <C-f>  :Rg<CR>

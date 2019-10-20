@@ -18,6 +18,8 @@ Plug 'mhartington/oceanic-next'
 Plug 'elixir-editors/vim-elixir'
 " File Control / Formatting
 Plug 'ctrlpvim/ctrlp.vim'
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
 Plug 'godlygeek/tabular'
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
 Plug 'majutsushi/tagbar'
